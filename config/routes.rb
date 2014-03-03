@@ -1,4 +1,5 @@
 Batch2::Application.routes.draw do
+  get "pages/about"
   resources :ideas
   root :to => 'ideas#index'
 
